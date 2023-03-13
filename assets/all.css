@@ -1,0 +1,10 @@
+header {
+    width: 100%;
+    background-color: rgb(65, 147, 40);
+    align-items:center;
+    text-align: justify;
+}
+
+a {
+    color: #000;
+}

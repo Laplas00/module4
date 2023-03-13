@@ -1,0 +1,20 @@
+[
+    {
+        "title" : "My birthday",
+        "author":"My mom",
+        "date" : "03-09-2002",
+        "text": "this happened"
+    },
+    {
+        "title" : "Mom birthday",
+        "author":"Her mom",
+        "date" : "01-18-1978",
+        "text": "She's awesome"
+    },
+    {
+        "title" : "Some birthday",
+        "author":"Somebody",
+        "date" : "Bla bla",
+        "text": "thisFeabilous"
+    }
+]

@@ -1,0 +1,27 @@
+
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="./assets/all.css">
+</head>
+
+{% include 'partials/_header.html' %}
+
+<form action="/form" method="POST" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
+    <h1 class="h3 mb-3 font-weight-normal">Write to me</h1>
+    <div class="row mb-3">
+        <label class=""> Your name </label>
+        <input class="form-control" name="username" type="text" value="testname"/>
+    </div>
+    <div class="row mb-3">
+        <label class=""> Your text message </label>
+        <textarea class="form-control" name="message"></textarea>
+    </div>
+    <div class="d-flex justify-content-evenly">
+        <button class="btn btn-primary col-4" name="" type="submit">
+            Send
+        </button>
+        <button class="btn btn-secondary col-4" name="" type="reset">
+            Reset
+        </button>
+    </div>
+</form>
